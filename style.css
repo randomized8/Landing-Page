@@ -1,14 +1,19 @@
 .header {
     background-color: #1F2937;
+    margin: 0% 12.5%;
+
 }
 
 .header.top {
     display: flex;
+    justify-content: space-between;
 }
 
 .header.logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0;
+    align-self: center;
 }
 
 h1 {
@@ -27,13 +32,25 @@ p, li {
 ul {
     list-style: none;
     display: flex;
+    gap: 12px;
+    margin-right: 10px;
 }
 
 .header img {
-    height: 300px;
-    width: auto;
+    align-self: center;
+    height: 250px;
+    width: fit-content;
+    margin-bottom: 20px;
 }
 
 .header.bottom {
     display: flex;
+    gap: 40px;
 }
+
+.content {
+    flex: 1 1 200px;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
