@@ -7,6 +7,7 @@
 .header.top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .header.logo {
@@ -29,10 +30,15 @@ p, li {
 
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
     display: flex;
-    gap: 12px;
+    gap: 25px;
     margin-right: 10px;
 }
 
@@ -40,7 +46,7 @@ ul {
     align-self: center;
     height: 250px;
     width: fit-content;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .header.bottom {
@@ -50,7 +56,24 @@ ul {
 
 .content {
     flex: 1 1 200px;
-    flex-wrap: nowrap;
-    margin-bottom: 20px;
 }
 
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
+.pictures {
+    display: flex;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
