@@ -47,6 +47,7 @@ ul {
     height: 250px;
     width: fit-content;
     margin-bottom: 80px;
+    border: none;
 }
 
 .header.bottom {
@@ -69,11 +70,44 @@ button {
     color: #F9FAF8;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    align-self: center;
+}
+
 .pictures {
     display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+
 }
 
 img {
-    height: 100px;
-    width: auto;
+
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height: 175px;
+    width: fit-content;
+
 }
+
+figure {
+    display: table;
+
+}
+
+figcaption {
+
+    display: table-caption;
+    caption-side: bottom;
+    width: 100%;
+
+}
+
