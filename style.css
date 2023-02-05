@@ -127,7 +127,7 @@ figcaption {
 }
 
 .quote > p {
-    color: black;
+    color: #1F2937;
     font-size: 36px;
 }
 
@@ -135,4 +135,36 @@ figcaption {
     align-self: flex-end;
     font-size: 24px;
     font-weight: bold;
+}
+
+.call-to-action {
+
+    background-color: #3882F6;
+    display: flex;
+    margin: 0 22.5%;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blurb {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-to-action > button {
+    border: 2px solid white;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.blurb > #butt {
+    font-size: 28px;
+    padding-bottom: 0;
+    
+
 }
