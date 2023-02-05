@@ -168,3 +168,14 @@ figcaption {
     
 
 }
+
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 25px;
+    margin: 0 12.5%;
+
+    margin-top: 100px;
+    text-align: center;
+
+}
